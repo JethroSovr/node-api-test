@@ -8,10 +8,6 @@ import middlewaresConfig from './config/middlewares'
 import middlewares from './config/middlewares';
 import apiRoutes from './modules';
 
-console.log('==============1');
-console.log(constants);
-console.log('==============');
-
 const app = express();
 
 middlewares(app);
